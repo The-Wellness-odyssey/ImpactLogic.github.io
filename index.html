@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Logic Appraisal and EDR | Expert Auto Valuation</title>
+    <style>
+        /* THE CHASSIS (CSS Reset & Variables) */
+        :root {
+            --primary-dark: #0f172a; /* Slate 900 - Authoritative */
+            --accent-red: #dc2626;  /* Red 600 - Aggressive highlight */
+            --bg-light: #f8fafc;    /* Slate 50 - Sterile background */
+            --text-main: #334155;   /* Slate 700 - Highly readable */
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: var(--bg-light); color: var(--text-main); line-height: 1.6; }
+        
+        /* THE ROOF (Navigation) */
+        header { background-color: var(--primary-dark); color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--accent-red); }
+        .logo-text { font-size: 1.5rem; font-weight: 800; letter-spacing: 1px; }
+        .logo-text span { color: var(--accent-red); }
+        nav ul { list-style: none; display: flex; gap: 20px; }
+        nav a { color: white; text-decoration: none; font-weight: 600; font-size: 0.9rem; text-transform: uppercase; transition: color 0.3s; }
+        nav a:hover { color: var(--accent-red); }
+
+        /* THE ENGINE BAY (Hero Section) */
+        .hero { background-color: var(--primary-dark); color: white; padding: 6rem 5%; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1rem; text-transform: uppercase; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem auto; color: #cbd5e1; }
+        .btn-primary { background-color: var(--accent-red); color: white; padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 4px; text-transform: uppercase; display: inline-block; transition: background 0.3s; }
+        .btn-primary:hover { background-color: #b91c1c; }
+
+        /* THE PAYLOAD (Services Section) */
+        .services { padding: 4rem 5%; text-align: center; }
+        .section-title { font-size: 2rem; color: var(--primary-dark); margin-bottom: 3rem; text-transform: uppercase; position: relative; }
+        .section-title::after { content: ''; width: 60px; height: 3px; background: var(--accent-red); display: block; margin: 10px auto 0; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid var(--primary-dark); text-align: left; transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); border-top-color: var(--accent-red); }
+        .card h3 { color: var(--primary-dark); margin-bottom: 1rem; font-size: 1.3rem; }
+
+        /* THE BUMPER (Footer/Contact) */
+        footer { background-color: var(--primary-dark); color: white; text-align: center; padding: 3rem 5%; margin-top: 4rem; }
+        .contact-info { font-size: 1.1rem; margin-bottom: 1rem; }
+        .contact-info strong { color: var(--accent-red); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-text">IMPACT LOGIC <span>APPRAISAL</span></div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">Credentials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Data-Driven Valuation.</h1>
+        <p>Defending asset value through objective methodology, independent market analysis, and forensic Event Data Recorder extraction.</p>
+        <a href="#contact" class="btn-primary">Request a Review</a>
+    </section>
+
+    <main>
+        <section id="services" class="services">
+            <h2 class="section-title">Areas of Operation</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Diminished Value Claims</h3>
+                    <p>Insurance carriers rely on generic formulas. We provide highly specific, localized market data to prove actual post-repair market loss. We do not use KBB.</p>
+                </div>
+                <div class="card">
+                    <h3>Total Loss Appraisals</h3>
+                    <p>Countering automated valuation reports (CCC, Mitchell) with manual, comp-based methodology to ensure proper indemnification for specialty and late-model vehicles.</p>
+                </div>
+                <div class="card">
+                    <h3>EDR Data Extraction</h3>
+                    <p>Pre-crash and crash phase telemetry retrieval. We pull the hard data directly from the vehicle's control modules to establish factual impact parameters.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="contact-info">
+            <p><strong>Huy Vu</strong> | Lead Appraiser & EDR Specialist</p>
+            <p>Anaheim, CA | Operations: Southern California</p>
+            <p>Dispatch: <strong>657-631-2168</strong></p>
+        </div>
+        <p style="color: #64748b; font-size: 0.8rem; margin-top: 2rem;">&copy; 2026 Impact Logic Appraisal and EDR. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
