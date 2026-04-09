@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Your Podcast Title</title>
-    <link>https://www.yourwebsite.com</link>
-    <description>A brief description of your entire podcast series.</description>
+    <title>The Impact Logic Podcast</title>
+    <link>https://www.impact-logic.org</link>
+    <description>A series of talks discussing about the hidden areas of an traffic accident claim: EDR, Total Loss Valuation and Appraisal Clause, and Diminished Value. Hosts by Huy Vu, Lead Specialist of Impact Logic Appraisal and EDR.</description>
     <language>en-us</language>
 
     <item>
-      <title>Episode 1: The First Restock</title>
-      <description>In our inaugural episode, we discuss the current state of the technology.</description>
+      <title>Episode 1: The Diminished Value talk</title>
+      <description>In our inaugural episode, we discuss the one thing that most ESL claimants overlook, why is the insurance company is gatekeeping this, and how to make the most of it.</description>
       <pubDate>Wed, 08 Apr 2026 12:00:00 GMT</pubDate>
       
       <enclosure 
-        url="https://www.yourwebsite.com/audio/episode1.mp3" 
+        url="https://www.impact-logic.org/#insights" 
         length="24589632" 
         type="audio/mpeg" 
       />
